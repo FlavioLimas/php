@@ -3,7 +3,7 @@
 
 
 body {
-    background: url(_imagens/fundo.jpg) ;
+    background: url(_imagens/fundo.jpg) no-repeat;
     background-position: 100%;
     background-size: 100%;
  /* background-attachment: fixed; */
@@ -22,5 +22,3 @@ div {
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
     word-wrap: break-word;
 }
-
-/* Long live House Stark */
