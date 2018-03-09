@@ -17,10 +17,13 @@
 				$d = "Já pode dirigir";
 			}
 			else {
+				if ($i >= 16 && $i <18) {
+					# code...
+				}
 				$v = "Não pode votar";
 				$d = "Não pode dirigir";
 			}
-			echo "$v e $d";
+			echo "Com essa idade voce $v e tambem $d";
 		 ?><br>
 		 <a href="01exercicio.html">Voltar</a>
 	 </div>
