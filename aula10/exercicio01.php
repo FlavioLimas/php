@@ -13,16 +13,16 @@
 
 			switch ($o) {
 				case 1:
-					$r = $n + $n * 2;
+					$r = $n * 2;
 					break;
 				case 2:
-					$r = $
+					$r = $n ^ 3;
 					break;
-				
-				default:
-					# code...
+				case 3:
+					$r = sqrt($n);
 					break;
 			}
+			echo "O resultado da operação solicitada foi $r";
 		 ?><br>
 		 <a href="01exercicio.html">Voltar</a>
 	 </div>
